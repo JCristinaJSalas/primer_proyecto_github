@@ -9,11 +9,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+     width: 100vw;
+     
+}
 body{
     font-family: var(--font-familia) ;
     font-size: 16px;
-    width: 100vw;
+    margin: auto;
     background-color: #edede9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 header{
     width: 60%;
@@ -23,10 +31,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #a3b18a;
 }
 .container{
     width: 50%;
     padding: 15px;
+    text-align: center;
 }
 
 .container img{
@@ -36,12 +46,13 @@ header{
     box-shadow: 16px -14px 54px -1px rgba(0, 0, 0, 0.58);
 }
 .container h1 , h2{
-    font-weight: 700 ;
+    font-weight: 400 ;
     font-size: 2rem;
     padding: 5px;
 }
 .container strong{
     font-style: italic;
+    font-weight: 500;
     font-size: 2.7rem;
     color: var(--color-primary) ;
     
@@ -49,12 +60,8 @@ header{
 .container h3{
     font-size: 1.2rem;
     text-align: right;
-    font-weight: 600;
+    font-weight: 400;
     padding-right: 20px;
-}
-hr{
-    background-color: var(--color-primary) ;
-    height: 10px;
 }
 
 main{
