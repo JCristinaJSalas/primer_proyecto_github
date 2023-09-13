@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;800&display=swap');
+:root{
+    --color-primary: #a3b18a;
+    --font-familia:'Darker Grotesque', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-familia) ;
+    font-size: 16px;
+    width: 100vw;
+    background-color: #edede9;
+}
+header{
+    width: 60%;
+    margin: 3% auto 0 auto;
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    padding: 15px;
+}
+
+.container img{
+    border: none;
+    border-radius: 50%;
+    max-width: 200px;
+    box-shadow: 16px -14px 54px -1px rgba(0, 0, 0, 0.58);
+}
+.container h1 , h2{
+    font-weight: 700 ;
+    font-size: 2rem;
+    padding: 5px;
+}
+.container strong{
+    font-style: italic;
+    font-size: 2.7rem;
+    color: var(--color-primary) ;
+    
+} 
+.container h3{
+    font-size: 1.2rem;
+    text-align: right;
+    font-weight: 600;
+    padding-right: 20px;
+}
+hr{
+    background-color: var(--color-primary) ;
+    height: 10px;
+}
+
+main{
+    width: 70%;
+    margin:  0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 40px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+}
+h5{
+    font-size: 2rem;
+}
